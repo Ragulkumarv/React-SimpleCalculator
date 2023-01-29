@@ -14,23 +14,19 @@ function App() {
   function minus(e) {
     e.preventDefault();
     setResult((result) => result - Number(inputRef.current.value));
-    // Add the code for the minus function
   }
 
   function multiply(e) {
     e.preventDefault();
     setResult((result) => result * Number(inputRef.current.value));
-    // Add the code for the plus function
   }
 
   function divide(e) {
     e.preventDefault();
     setResult((result) => result / Number(inputRef.current.value));
-    // Add the code for the divide function
   }
 
   function resetInput(e) {
-    // Add the code for the resetInput function
     e.preventDefault();
     inputRef.current.value = "";
   }
@@ -38,7 +34,6 @@ function App() {
   function resetResult(e) {
     e.preventDefault();
     setResult(0);
-    // Add the code for the resetResult function
   }
 
   return (
